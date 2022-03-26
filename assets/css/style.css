@@ -7,8 +7,16 @@
 }
 
 #name{
-    box-sizing: cover;
-    box-color: white;
+    display: inline-block;
+    font-size: 48px;
+}
+
+header{
+    background-color: rgb(103, 95, 177);
+}
+header nav ul li{
+    /* float: right; */
+    display: inline-block
 }
 .image {
     height: 200px;

@@ -13,6 +13,11 @@
 
 header{
     background-color: rgb(103, 95, 177);
+}
+
+header nav ul li{
+    display: inline-block;
+} 
 
 header nav {
     padding-top: 15px;

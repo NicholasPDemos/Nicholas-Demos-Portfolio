@@ -8,16 +8,34 @@
 
 #name{
     display: inline-block;
-    font-size: 48px;
+    font-size: 40px;
 }
 
 header{
     background-color: rgb(103, 95, 177);
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
-header nav ul li{
-    /* float: right; */
-    display: inline-block
+
+header nav ul {
+    list-style-type: none;
 }
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.navbar {
+    color: black;
+    float: right;
+    display: inline-block;
+}
+
 .image {
     height: 200px;
     width: 100%;

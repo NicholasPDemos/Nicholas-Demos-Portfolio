@@ -1,7 +1,4 @@
-* {
-    
-    color: rgb(153, 92, 165);
-}
+
 #header-background{ 
     width: auto;
     height: auto;
@@ -9,6 +6,10 @@
     background-size: 100%; */
 }
 
+#name{
+    box-sizing: cover;
+    box-color: white;
+}
 .image {
     height: 200px;
     width: 100%;

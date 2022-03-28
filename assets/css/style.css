@@ -79,5 +79,14 @@ header nav ul li {
     align-items: center;
     gap: 30%;
     flex-wrap: wrap;
+ 
 }
 
+.projects {
+    display: flex;
+    flex-direction: row;
+    align-content: baseline;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
